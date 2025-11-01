@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Data (large files)
+data/raw/archive.zip
+*.parquet
+*.csv
+!data/interim/*.csv
+
+# Models (large files)
+*.ckpt
+*.pt
+*.joblib
+*.pth
+*.h5
+*.pb
+
+# TensorRT
+*.engine
+*.trt
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+temp_repo/
+*.tmp
+
